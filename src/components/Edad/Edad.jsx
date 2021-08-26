@@ -101,7 +101,7 @@ function Edad() {
       <div className="ContainerBoton1">     
            <p id="frase">
       <div className="BotonesA">
-      <Link exact to="/aforo">
+      <Link exact to="/Count">
                         <button>Aforo</button>
                         </Link>
                </div>
