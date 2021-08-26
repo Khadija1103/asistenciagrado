@@ -1,5 +1,5 @@
 
-import Index from "./pages/index";
+import Asistenciagrado from "./pages/index";
 import Inicio from "./pages/inicio";
 import Estadistica from "./pages/estadistica";
 import AcompananteUser from "./pages/acompañante"
@@ -28,10 +28,9 @@ function App() {
            <Route exact path="/" render={() => (<Redirect to="/home"/>)}>
           </Route>
 
-           <Route path="/home">
-            <Index/>
+          <Route path="/asistenciagrado">
+            <Asistenciagrado/>
           </Route>
-
 
           <Route path="/inicio">
             <Inicio/>

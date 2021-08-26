@@ -18,7 +18,7 @@ function Cajaindex() {
         </p>
 
         <p id="frase"><h1 id="Tittle">
-          Registro de Asitencia: Graduación  Class TechPower 
+          Registro de Asitencia: Graduación  Class TechPower Class 
         </h1>
         </p>
        

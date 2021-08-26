@@ -90,7 +90,7 @@ const Acompanante = (props) => { /*Traer de link*/
                                <option value="Katerin Alejandra Galindo Ruiz"/>
                                <option value="Laura Tatiana Celis Ballesteros"/>
                                 <option value="Leidy Johanna Roa lozano"/>
-                                <option value="María Alexandra Bulla Arenas"/>/*
+                                <option value="María Alexandra Bulla Arenas"/>
                                <option value="María Sofía de Los Ángeles Reyes Rubiano "/>
                                <option value="Paola Andrea Forero Bernal"/>
                                <option value="Aida Gineth Garzón Bejarano"/>
