@@ -1,0 +1,138 @@
+.cajaestadistica {
+	width: 100%;
+	min-height: 20rem;
+	text-align: center;
+	display: flex;
+}
+.Contenidoestadistica{
+	width: 65%;
+	font-size: 18px;
+	margin-left: 12%;
+	padding-right: 7%;
+	height: 10vh;
+	margin-top: 10%;
+ }
+
+#imgtm {
+	margin-top: 8%;
+	margin-left: 40%;
+	width: 116%;
+	align-content: center;
+	-webkit-animation-name: llegadaDerecha;
+	        animation-name: llegadaDerecha;
+	-webkit-animation-duration: 3s;
+	        animation-duration: 3s;
+}
+
+#fraseestadis{
+	padding-top: 2px;
+ }
+ #Tittleestadis{
+	color: #0092A5;
+ }
+
+.Botones button {
+	background-color: #6F52DA ;
+    width: 180px;
+    border: none;
+    border-radius: 25px;
+    height: 55px;
+    color: cornsilk;
+    font-size: 22px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.Botones button:hover {
+	color: #6F52DA;
+	background-color: #D8D2D2;
+	border: 1px solid #6F52DA;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+@media screen and (min-width:325px) and (max-width:425px) {
+	#imgtm{
+		margin-top: 8%;
+		margin-left: 3%;
+		width: 116%;
+		margin-top: 20%;
+	  
+	}
+	
+	.cajaestadistica{
+	   height: 100%;
+	  
+	
+	}
+	.Contenidoestadistica{
+		width: 65%;
+		font-size: 11px;
+		margin-left: 6%;
+		padding-right: 2%;
+		height: 30vh;
+		margin-top: 20%;
+	 }
+	.Botones button{
+	   font-size: 12px;
+	   width: 110px;
+	   height: 40px;
+	}
+ }
+ @media screen and (min-width:426px) and (max-width:700px) {
+	#imgtm{
+		padding: 0;
+		height: 80%;
+		margin-left: 1%;
+		margin-top: 20%;
+	 }
+	 
+	 .cajaestadistica{
+		height: 100%;
+	
+	 
+	 }
+	 .Contenidoestadistica{
+		margin-top: 4%;
+		 width: 65%;
+		 font-size: 13px;
+		 margin-left: 6%;
+		 padding-right: 2%;
+		 height: 8vh;
+		 margin-top: 20%;
+	  }
+	 .Botones button{
+		font-size: 12px;
+		width: 110px;
+		height: 40px;
+	 }
+ }
+ @media screen and (min-width:701px) and (max-width:1200px) {
+	#imgtm{
+		padding: 0;
+		height: 90%;
+		margin-left: 1%;
+		margin-top: 20%;
+	 }
+	 
+	 .cajaestadistica{
+		height: 100%;
+	
+	 
+	 }
+	 .Contenidoestadistica{
+		 margin-top: 4%;
+		 width: 65%;
+		 font-size: 15px;
+		 margin-left: 6%;
+		 padding-right: 2%;
+		 height: 8vh;
+		 margin-top: 20%;
+	  }
+	 .Botones button{
+		font-size: 15px;
+		width: 170px;
+		height: 50px;
+	 }
+ }

@@ -1,0 +1,140 @@
+
+.ContainerAforo{
+    
+    width: 90%;
+    padding: 0 2% 3% 4%;
+    font-size: 29px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+}
+.Contenedor_grafica_ilustracion{
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(2,1fr); 
+    align-items: center;
+}
+.ContainerBoton2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    margin-top: 25px;
+}
+.contador{
+    font-size: 18px;
+    padding-top: 55px;
+    padding-bottom: 35px;
+    animation-name: llegadaDerecha;
+    animation-duration: 4s;
+}
+@keyframes llegadaDerecha {
+    0%{
+        opacity: 0;
+        transform:translateX(-2000px) ;
+    }
+    60%{
+        opacity: 0.8;
+        transform: translateX(15px)
+    }
+    80%{
+        opacity: 0.9;
+        transform: translateX(0px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0); /*Se devuelve*/
+    }
+}
+.Grafica {
+    height: 350px;
+    width: 100%;
+}
+#aforo_img{
+    align-items: center;
+    justify-content: center;
+    height: 260px;
+    width: 100vh;   
+}
+@media screen and (min-width:325px) and (max-width:425px) {
+    .Contenedor_grafica_ilustracion{
+        flex-direction: column;
+        width: 100%;
+    }
+    .Grafica{
+        width: 90%;
+        padding: 0; 
+        margin-left: 4%;
+    }
+    #aforo_img{
+        height: 120px;
+        display: flex;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        width: 80%;
+    }
+    .BotonesA button{
+        font-size: 15px;
+        width: 120px;
+        height: 30px;
+    }
+    .ContainerAforo{
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+    }
+    .contador{
+        width: 60%;
+        font-size: 16px;
+        padding: 15px;
+        display: flex;
+    }
+     .ContainerBoton2{
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:426px) and (max-width:1200px) {
+    .Contenedor_grafica_ilustracion{
+        flex-direction: column;
+        width: 100%;
+    }
+    .Grafica{
+        width: 90%;
+        padding: 0; 
+        margin-left: 4%;
+    }
+    #aforo_img{
+        height: 140px;
+        display: flex;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        width: 80%;
+        justify-content: center;
+    }
+    .BotonesA button{
+        font-size: 15px;
+        width: 120px;
+        height: 30px;
+    }
+    .ContainerAforo{
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+    }
+    .contador{
+        width: 60%;
+        font-size: 16px;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+    }
+     .ContainerBoton2{
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        width: 40%;
+        justify-content: center;
+    }
+}

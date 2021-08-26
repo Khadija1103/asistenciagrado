@@ -1,0 +1,132 @@
+.ContainerEdad{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    height: 100%;
+}
+.contador{
+    animation-delay: -1s
+}
+.Conjunto{
+    align-items: center;
+   display: grid;
+   width: 100%;
+    grid-template-columns: repeat(2, 1fr);   
+    justify-items: center;
+}
+
+.Grafica1 {
+    height: 400px;
+    padding-left: 15%;
+    padding-bottom: 12px;
+    width: 90%;
+}
+.ContainerBoton1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    margin-top: 19px;
+}
+#edad_img{
+    height: 50%;
+    padding-left: 15%;
+    display: flex;
+}
+@media screen and (min-width:325px) and (max-width:425px) {
+    .Conjunto{
+        grid-template-columns: repeat(1, 1fr);  
+        width: 100%;
+    }
+    .Grafica1{
+        width: 90%;
+        padding: 0; 
+        margin-left: 4%;
+    }
+    #edad_img{
+        height: 120px;
+        display: flex;
+        margin-bottom: 15px;
+        margin-left: 14%;
+        margin-top: 10px;
+    }
+    .BotonesA button{
+        font-size: 15px;
+        width: 120px;
+        height: 30px;
+    }
+    .ContainerEdad{
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+    }
+    .contador{
+        width: 60%;
+        font-size: 16px;
+        padding: 15px;
+        display: flex;
+    }
+     .ContainerBoton1{
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width:426px) and (max-width:1200px) {
+    .Conjunto{
+        grid-template-columns: repeat(1, 1fr);  
+        width: 100%;
+    }
+    .Grafica1{
+        width: 90%;
+        padding: 0; 
+        margin-left: 4%;
+    }
+    #edad_img{
+        height: 140px;
+        display: flex;
+        margin-bottom: 15px;
+        margin-left: 12%;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .BotonesA button{
+        font-size: 15px;
+        width: 120px;
+        height: 30px;
+    }
+    .ContainerEdad{
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+    }
+    .contador{
+        width: 60%;
+        font-size: 16px;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+    }
+     .ContainerBoton1{
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        width: 60%;
+    }
+}
+/*@media screen and (min-width:1200px) and (max-width:1500px) {
+    .Conjunto{
+        width: 100%;
+        height: 100%;
+    }
+    .Grafica1{
+        width: 100%;
+        padding-left: 2%;
+    }
+    #edad_img{
+        width: 80%;
+        height: 100%;
+    }
+    .ContainerEdad{
+        height: 100%;
+    }
+}*/

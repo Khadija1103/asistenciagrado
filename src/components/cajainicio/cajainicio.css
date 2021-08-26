@@ -1,0 +1,176 @@
+*{
+   padding: 0px;
+   margin: 0px;
+
+}
+
+.cajainicio{
+   width: 100%;
+   min-height: 20rem;
+   text-align: center;
+   display: flex;
+}
+.usuario{
+   width: 100%;
+   text-align: center;
+   font-size: 13px;
+   color:#0092A5;
+   flex:1;
+   margin-top:2%;
+
+}
+
+#frase{
+   margin-top: 1%;
+   padding-top: 2px;
+}
+#Tittle{
+   color: #0092A5;
+
+}
+.Container_img4{
+   width: 30%;
+   align-content: center;
+}
+#img4{
+   width: 40%;
+   -webkit-animation-name: llegadaDerecha;
+           animation-name: llegadaDerecha;
+   -webkit-animation-duration: 3s;
+           animation-duration: 3s;
+}
+.containerbotoninicio{
+   display: flex;
+	margin-left: 27%;
+
+	
+}
+.Botones1 button{
+   background-color: #6F52DA ;
+   width: 170px;
+   border: none;
+   border-radius: 25px;
+   height: 55px;
+   color: cornsilk;
+   font-size: 15px;
+   letter-spacing: 1px;
+   cursor: pointer;
+   margin-right: 40px;
+   
+}
+.Botones1 button:hover{
+  color: #6F52DA;
+  background-color: #D8D2D2;
+  border: 1px solid #6F52DA;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+@keyframes llegadaDerecha {
+   0%{
+       opacity: 0;
+       transform:translateX(1000px) ;
+   }
+   60%{
+       opacity: 0.8;
+       transform: translateX(-80px)
+   }
+   80%{
+       opacity: 0.9;
+       transform: translateX(15px);
+   }
+   100%{
+       opacity: 1;
+       transform: translateX(0);
+   }
+}
+@media screen and (min-width:325px) and (max-width:425px) {
+   .cajainicio{
+      height: 100%;
+      padding-top: 15px;
+      min-height: 0;
+   }
+   
+   .usuario{
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      color:#0092A5;
+      flex:1
+   
+   }
+   .containerbotoninicio{
+      margin-left: 12%;
+      grid-template-columns: repeat(1, 1fr);
+      display: grid;
+   }
+  
+  
+   .Botones1 button{
+      font-size: 10px;
+      width: 150px;
+      height: 45px;
+      margin-top: 2%;
+   }
+
+   #img4{
+      margin-top: 4%;
+      margin-left: 7%;
+     
+   }
+}
+@media screen and (min-width:426px) and (max-width:700px) {
+   
+   .containerbotoninicio{
+      margin-left: 9%;
+      grid-template-columns: repeat(1, 1fr);
+      display: grid;
+   }
+   .cajainicio{
+      height: 100%;
+      padding-top: 15px;
+      min-height: 0;
+   }
+  
+   .Botones1 button{
+      font-size: 10px;
+      width: 150px;
+      height: 45px;
+   }
+   #img4{
+      margin-left: 6%;
+     
+   }
+}
+
+@media screen and (min-width:701px) and (max-width:1200px) {
+  
+   .cajaincio{
+      height: 100%;
+      padding-top: 15px;
+      min-height: 0;
+   }
+   .containerbotoninicio{
+      grid-template-columns: repeat(1, 1fr);
+      display: grid;
+      justify-content: center;
+      margin-left: 9%;
+   }
+   .Botones1 button{
+      font-size: 12px;
+      width: 170px;
+      height: 45px;
+   }
+   #img4{
+      margin-top: 3%;
+      margin-left: 5%;
+     
+   }
+}
+@media screen and (min-width:1201px) and (max-width:1600px) {
+   .Contenido1{
+      margin-right: 16%;
+   }
+}
+
